@@ -1,0 +1,6 @@
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\WeekOneReview\WeekOneReview\bin\Debug\WeekOneReview.exe.config
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\WeekOneReview\WeekOneReview\bin\Debug\WeekOneReview.exe
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\WeekOneReview\WeekOneReview\bin\Debug\WeekOneReview.pdb
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\WeekOneReview\WeekOneReview\obj\Debug\WeekOneReview.csprojResolveAssemblyReference.cache
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\WeekOneReview\WeekOneReview\obj\Debug\WeekOneReview.exe
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\WeekOneReview\WeekOneReview\obj\Debug\WeekOneReview.pdb
