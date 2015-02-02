@@ -23,9 +23,9 @@ namespace GroupPicker
         /// <summary>
         /// Randomly pull names from a list and rearrange into groups of size groupSize
         /// </summary>
-        /// <param name="listOfStudents">List of student names</param>
+        /// <param name="studentList">List of student names</param>
         /// <param name="groupSize">size of new groups</param>
-        static void PickGroup(List<string> listOfStudents, int groupSize)
+        static void PickGroup(List<string> studentList, int groupSize)
         {
             //will be used to temporarily hold current randomly chosen group of students
             List<string> currentGroupList = new List<string>();
@@ -34,16 +34,16 @@ namespace GroupPicker
             //create a random number generator
             Random rng = new Random();
 
-            //loop through listOfStudents List and randomly chose one
-            for (int i = listOfStudents.Count-1; i >= 0; i--)
+            //loop through studentList List and randomly chose one
+            for (int i = studentList.Count-1; i >= 0; i--)
             {
                 //randomly chose student name based on current length of List, add to temp group List, remove from original List
-                string currentStudent = listOfStudents[rng.Next(0, i+1)];
+                string currentStudent = studentList[rng.Next(0, i+1)];
                 currentGroupList.Add(currentStudent);
-                listOfStudents.Remove(currentStudent);
+                studentList.Remove(currentStudent);
 
                 //if size of temp List has reached groupSize or original student list is empty...
-                if ((currentGroupList.Count == groupSize) || (listOfStudents.Count == 0))
+                if ((currentGroupList.Count == groupSize) || (studentList.Count == 0))
                 {
                     //print each group to the screen
                     Console.WriteLine("GROUP {0}", groupNumber);

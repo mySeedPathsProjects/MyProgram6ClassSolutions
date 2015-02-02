@@ -4,3 +4,6 @@ C:\Users\nstephens\Documents\GitHub\Program6ClassSolutions\ListsandArrays\Listsa
 C:\Users\nstephens\Documents\GitHub\Program6ClassSolutions\ListsandArrays\ListsandArrays\obj\Debug\ListsandArrays.csprojResolveAssemblyReference.cache
 C:\Users\nstephens\Documents\GitHub\Program6ClassSolutions\ListsandArrays\ListsandArrays\obj\Debug\ListsandArrays.exe
 C:\Users\nstephens\Documents\GitHub\Program6ClassSolutions\ListsandArrays\ListsandArrays\obj\Debug\ListsandArrays.pdb
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\ListsandArrays\ListsandArrays\bin\Debug\ListsandArrays.exe.config
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\ListsandArrays\ListsandArrays\obj\Debug\ListsandArrays.exe
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\ListsandArrays\ListsandArrays\obj\Debug\ListsandArrays.pdb
