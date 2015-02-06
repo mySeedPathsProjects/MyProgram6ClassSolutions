@@ -1,6 +1,0 @@
-C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\testTryParse\testTryParse\bin\Debug\testTryParse.exe.config
-C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\testTryParse\testTryParse\bin\Debug\testTryParse.exe
-C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\testTryParse\testTryParse\bin\Debug\testTryParse.pdb
-C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\testTryParse\testTryParse\obj\Debug\testTryParse.csprojResolveAssemblyReference.cache
-C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\testTryParse\testTryParse\obj\Debug\testTryParse.exe
-C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\testTryParse\testTryParse\obj\Debug\testTryParse.pdb
