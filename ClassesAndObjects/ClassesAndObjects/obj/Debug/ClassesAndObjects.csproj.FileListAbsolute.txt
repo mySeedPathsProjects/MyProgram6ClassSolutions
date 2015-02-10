@@ -1,0 +1,6 @@
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\ClassesAndObjects\ClassesAndObjects\bin\Debug\ClassesAndObjects.exe.config
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\ClassesAndObjects\ClassesAndObjects\bin\Debug\ClassesAndObjects.exe
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\ClassesAndObjects\ClassesAndObjects\bin\Debug\ClassesAndObjects.pdb
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\ClassesAndObjects\ClassesAndObjects\obj\Debug\ClassesAndObjects.csprojResolveAssemblyReference.cache
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\ClassesAndObjects\ClassesAndObjects\obj\Debug\ClassesAndObjects.exe
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\ClassesAndObjects\ClassesAndObjects\obj\Debug\ClassesAndObjects.pdb
