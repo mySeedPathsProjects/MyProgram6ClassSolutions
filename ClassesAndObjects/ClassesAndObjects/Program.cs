@@ -10,10 +10,23 @@ namespace ClassesAndObjects
     {
         static void Main(string[] args)
         {
-            ShowCourseConstructors();
+            DoStudentExamples();
+            //ShowCourseConstructors();
 
             Console.ReadKey();
         }
+
+        static void DoStudentExamples()
+        {
+            Student student1 = new Student("John McClary");
+            student1.CourseList.Add(new Course("Professional Development", "B"));
+            student1.CourseList.Add(new Course("Programming", "D"));
+            student1.CourseList.Add(new Course("Hockey History 101", "A"));
+            student1.CourseList.Add(new Course("Being Named John", "F"));
+
+            student1.PrintSudentInfo();
+        }
+
 
         static void ShowCourseConstructors()
         {
@@ -92,6 +105,7 @@ namespace ClassesAndObjects
         }
 
         // STEP 2:  DEFINE CONSTRUCTOR(S)...one is built in automatically if you don't make one
+        //**NO RETURN TYPE, THE OBJECT IS THE RETURN TYPE**
 
         //Parameter-less constructor, think of it as a "default constructor", gives default info
         public Course()
@@ -115,7 +129,57 @@ namespace ClassesAndObjects
         // STEP 3:  DEFINE ITS METHODS (actions) what can it do
         public void PrintCourseInfo()
         {
-            Console.WriteLine("{0, 15} {1, 2} {2, 3}", this.Name, this.LetterGrade, this.GradePoints);
+            Console.WriteLine("{0, 25} {1, 2} {2, 3}", this.Name, this.LetterGrade, this.GradePoints);
+        }
+    }
+
+    public class Student
+    {
+        //define Properties
+        private string _name;
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
+        }
+
+        private List<Course> _courseList;
+        public List<Course> CourseList
+        {
+            get { return _courseList; }
+            set { _courseList = value; }
+        }
+
+        public double GPA
+        {
+            get
+            {
+                //total grade points divided no. of classes
+                return this.CourseList.Average(x => x.GradePoints);
+            }
+        }
+
+        //other properties might include: age, studentID, DOB, major, ClassRank, Drink Pref, Gender
+
+        //CONSTRUCTOR  
+        public Student(string name)
+        {
+            this.Name = name;
+            this.CourseList = new List<Course>();  //make to initialize any Lists
+        }
+
+        //METHODS
+        public void PrintSudentInfo()
+        {
+            Console.WriteLine("Name: {0}", this.Name);
+            foreach (Course course in this.CourseList)
+            {
+                course.PrintCourseInfo();
+                //as a Lambda
+                //this.CourseList.ForEach(x => x.PrintCourseInfo());
+            }
+            Console.WriteLine("GPA: {0}", this.GPA);
+
         }
     }
 }
