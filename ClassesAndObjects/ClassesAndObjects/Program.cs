@@ -18,7 +18,7 @@ namespace ClassesAndObjects
 
         static void DoStudentExamples()
         {
-            Student student1 = new Student("John McClary");
+            Student student1 = new Student("John McClary", StudentRank.Senior);
             student1.CourseList.Add(new Course("Professional Development", "B"));
             student1.CourseList.Add(new Course("Programming", "D"));
             student1.CourseList.Add(new Course("Hockey History 101", "A"));
@@ -133,6 +133,17 @@ namespace ClassesAndObjects
         }
     }
 
+    //DEFINING AN ENUMERATION (ENUM)
+    public enum StudentRank
+    {
+        //starting referenced at 0 unless otherwise noted
+        Freshman,
+        Sophmore,
+        Junior,
+        Senior
+    }
+
+
     public class Student
     {
         //define Properties
@@ -159,13 +170,22 @@ namespace ClassesAndObjects
             }
         }
 
+        private StudentRank _studentRank;
+        public StudentRank StudentRank
+        {
+            get { return _studentRank; }
+            set { _studentRank = value; }
+        }
+
+
         //other properties might include: age, studentID, DOB, major, ClassRank, Drink Pref, Gender
 
         //CONSTRUCTOR  
-        public Student(string name)
+        public Student(string name, StudentRank rank)
         {
             this.Name = name;
             this.CourseList = new List<Course>();  //make to initialize any Lists
+            this.StudentRank = rank;
         }
 
         //METHODS
