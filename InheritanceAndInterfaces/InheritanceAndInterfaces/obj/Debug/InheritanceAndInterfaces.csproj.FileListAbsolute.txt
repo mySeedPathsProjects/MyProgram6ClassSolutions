@@ -1,0 +1,6 @@
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\InheritanceAndInterfaces\InheritanceAndInterfaces\bin\Debug\InheritanceAndInterfaces.exe.config
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\InheritanceAndInterfaces\InheritanceAndInterfaces\bin\Debug\InheritanceAndInterfaces.exe
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\InheritanceAndInterfaces\InheritanceAndInterfaces\bin\Debug\InheritanceAndInterfaces.pdb
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\InheritanceAndInterfaces\InheritanceAndInterfaces\obj\Debug\InheritanceAndInterfaces.csprojResolveAssemblyReference.cache
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\InheritanceAndInterfaces\InheritanceAndInterfaces\obj\Debug\InheritanceAndInterfaces.exe
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\InheritanceAndInterfaces\InheritanceAndInterfaces\obj\Debug\InheritanceAndInterfaces.pdb
