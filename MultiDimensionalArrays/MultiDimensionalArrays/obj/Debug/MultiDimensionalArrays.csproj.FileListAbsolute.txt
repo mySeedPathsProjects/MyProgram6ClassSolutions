@@ -1,0 +1,6 @@
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\MultiDimensionalArrays\MultiDimensionalArrays\bin\Debug\MultiDimensionalArrays.exe.config
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\MultiDimensionalArrays\MultiDimensionalArrays\bin\Debug\MultiDimensionalArrays.exe
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\MultiDimensionalArrays\MultiDimensionalArrays\bin\Debug\MultiDimensionalArrays.pdb
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\MultiDimensionalArrays\MultiDimensionalArrays\obj\Debug\MultiDimensionalArrays.csprojResolveAssemblyReference.cache
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\MultiDimensionalArrays\MultiDimensionalArrays\obj\Debug\MultiDimensionalArrays.exe
+C:\Users\nstephens\Documents\GitHub\MyProgram6ClassSolutions\MultiDimensionalArrays\MultiDimensionalArrays\obj\Debug\MultiDimensionalArrays.pdb
